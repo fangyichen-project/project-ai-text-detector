@@ -1,5 +1,5 @@
 # project-ai-text-detector
-A project to do classification for llm generated texts and human written texts in German.
+A project to do classification for llm generated texts and human written texts in German language.
 The goal is to compare the results using three different classification models random forest, svm and word embedding.
 ```mermaid
   flowchart TD
