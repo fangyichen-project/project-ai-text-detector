@@ -14,7 +14,7 @@ Module Cleaning (Data Processing):
 Module tfidf: 
     -Generieren von Tfidf-Werten von menschlich geschriebenen Texten.
     -Generieren von Tfidf-Werten von ML generierten Texten.
-#TODO Module Modelling Random Forest:
+Module Modelling Random Forest:
     -Implementieren von Random Forest, um menschlich geschrieben und ML generierten Texten
     zu klassifizieren. Ergebnisse werden ausgewertet.
 Module Modelling SVM:
@@ -152,18 +152,23 @@ text_tfidf_vectorizing.text_tfidf_vectorizing()
     #Accuracy Score
     #Results of k-fold cross-validation
 #Import the file (support_vector_machine.py)
-import text_tfidf_vectorizing
+import support_vector_machine
 
 #Call a function from the imported module
-text_tfidf_vectorizing.svm()
+support_vector_machine.svm()
 
 #%%
-#TODO Spagthetti Codes löschen u. anschließen.
 ###Module random forest
 #Classification using random forest.
+#Input: Output from module tdidf
+#Output:
+    #Most important 20 features (List and Plot)
+    #Balanced Accuracy
+    #Confusion Matrix from a K-Fold Cross-Validation
+    #Accuracy Score
+    #Results of k-fold cross-validation
 
-
-
+exec(open("random_forest.py").read())
 
 
 
