@@ -12,7 +12,7 @@ The goal is to compare the results using three different classification models r
     E-->H[Data Set in Mongo DB]
     H-->|Split in training and testing datasets|I[X train, X test, y train, y test]
     I-->|Vectorizing using TF-IDF|J[TF-IDF Matrix]
-    J-->|Random Forest|K[Prediction Rate using RF] 
+    J-->|Classification Tree|K[Prediction Rate using Classification Tree] 
     J-->|Support Vector Machine|L[Prediction Rate using svm]
     I-->|Word Embedding|M[Prediction Rate using word embedding] 
 ```
