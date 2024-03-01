@@ -1,6 +1,6 @@
 # project-ai-text-detector (On Working)
 A project to do classification for llm generated texts and human written texts in German language.
-The goal is to compare the results using three different classification models random forest, svm and word embedding.
+The goal is to compare the results using different classification models (including random forest and svm).
 ```mermaid
   flowchart TD
     A[Human wrtten texts from Newswebsite A] -->|Scrapy Spider| B(Pymongo DB Collection Human Written Texts)
